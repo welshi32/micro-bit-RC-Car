@@ -50,3 +50,6 @@ It uses the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library
 3. Install the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library) and [`nrf_to_nrf library`](https://github.com/TMRh20/nrf_to_nrf) library
 4. Select your board and port and press **Upload**
 5. Wait for the **Done uploading** message
+
+### Bugs/feature reports
+I am usually free, if you find a bug or want to suggest a new feature, feel free to open an issue, I'll look into it when I can.
