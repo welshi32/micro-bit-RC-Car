@@ -1,6 +1,6 @@
 # nFR5-RC-Car
 
-## A simple micro:bit RC car prototype using the nRF5x family's built-in radio
+## A simple RC car prototype using the nRF5x family's built-in radio
 
 > ⚠️ **WARNING**: Make sure you choose the correct binary for your device, or this WILL NOT WORK. Prebuilt binaries are only for nRF51822/nRF52833 SoCs. If you have a board with a diffferent nRF5x SoC, you will have to compile yourself.  
 
