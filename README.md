@@ -49,4 +49,4 @@ It uses the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/micro-bit-RC-Car.git
+git clone https://github.com/welshi32/micro-bit-RC-Car.git
