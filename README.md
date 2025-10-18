@@ -2,8 +2,7 @@
 
 ## A simple micro:bit RC car prototype using the nRF5x family's built-in radio
 
-> ⚠️ **WARNING**: This code is designed for **micro:bit v1** only.  
-> The micro:bit v2 uses the NRF52 MCU, which may not be compatible with this library.
+> ⚠️ **WARNING**: Make sure you choose the correct binary for your device, or this WILL NOT WORK.  
 
 ---
 
@@ -28,8 +27,8 @@ It uses the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library
 
 ## Requirements
 
-- 2 × **Micro:bit v1** boards (1 for the car, 1 for the controller)  
-- Motor driver board (e.g., L298N or H-bridge compatible with Micro:bit)  
+- 2 × **Micro:bit** boards (1 for the car, 1 for the controller)  
+- Motor driver board (e.g., DRV8833, TB6612FNG or H-bridge compatible with Micro:bit)  
 - Arduino IDE with **Micro:bit board package** installed  
 - Batteries or power pack for the car (optional but recommended)  
 
