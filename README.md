@@ -9,7 +9,7 @@
 ## What's this?
 
 This project demonstrates a simple RC car prototype using the nRF5x's built-in radio.  
-The car is controlled wirelessly via another micro:bit, sending **two separate values per packet** to control movement.  
+The car is controlled wirelessly via another board, sending **two separate values per packet** to control movement.  
 
 It uses the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library)/[`nrf_to_nrf library`](https://github.com/TMRh20/nrf_to_nrf) to communicate directly over the radio without BLE or SoftDevice.
 
@@ -39,13 +39,14 @@ It uses the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library
 ### Using Prebuilt Binaries
 
 1. Download the latest `.hex` files from the releases section.  
-2. Connect your Micro:bit via USB.  
-3. Drag-and-drop `controller.hex` onto the controller Micro:bit.  
-4. Drag-and-drop `car.hex` onto the car Micro:bit.  
+2. Connect your board via USB.  
+3. Drag-and-drop `NRF52_tx.hex/microbit_tx.hex` onto the controller MCU.  
+4. Drag-and-drop `NRF52_rx.hex/microbit_rx.hex` onto the car MCU.  
 
 ### Building from Source
 
-1. Clone this repository:
-
-```bash
-git clone https://github.com/welshi32/micro-bit-RC-Car.git
+1. Download the **.ino** file for your exact SoC(microbit_rx/tx.ino for nRF51, NRF52_rx/tx.ino for nRF52)
+2. Make sure you have **Arduino IDE** and the **arduino-nRF5 & Adafruit_nRF52_Arduino** cores installed
+3. Install the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library) and [`nrf_to_nrf library`](https://github.com/TMRh20/nrf_to_nrf) library
+4. Select your board and port and press **Upload**
+5. Wait for the **Done uploading** message
