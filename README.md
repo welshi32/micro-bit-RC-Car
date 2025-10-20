@@ -47,7 +47,7 @@ It uses the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library
 
 1. Download the **.ino** file for your exact SoC(microbit_rx/tx.ino for nRF51, NRF52_rx/tx.ino for nRF52)
 2. Make sure you have **Arduino IDE** and the **arduino-nRF5 & Adafruit_nRF52_Arduino** cores installed
-3. Install the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library) and [`nrf_to_nrf library`](https://github.com/TMRh20/nrf_to_nrf) library
+3. Install the [`NRF51_Radio_library`](https://github.com/tipih/NRF51_Radio_library), [`nrf_to_nrf library`](https://github.com/TMRh20/nrf_to_nrf) and GyverMotor  library
 4. Select your board and port and press **Upload**
 5. Wait for the **Done uploading** message
 
